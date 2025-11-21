@@ -1,0 +1,717 @@
+body {
+    background-color: #d8e5e5;
+    margin-bottom: 0pc;
+}
+
+/* INDEX */
+.topper {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+.topper h1 {
+    color: rgb(31, 50, 129);
+}
+.topper p {
+    color: rgb(31, 50, 129);
+}
+hr {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+
+
+/* BAG-SELECTION */
+#selection li:hover{
+    color: #ffffff;
+}
+#selection {
+    font-family: sans-serif;
+}
+#selection ul{
+    list-style: none;
+    text-align: center;
+}
+#selection a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* TAB-AKTIF */
+.active {
+    background-color: rgb(32, 68, 152);
+    border-radius: 2rem;
+}
+.active b {
+    color: #fff;
+}
+
+/* BIODATA */
+#hobi-bio {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    border-radius: 1rem;
+}
+#hobi-bio h3 {
+    color: rgb(21, 6, 160);
+}
+#hobi-bio a {
+    text-decoration: none;
+    color: #000;
+}
+#hobi-bio a:hover {
+    color: rgb(0, 81, 255);
+    text-shadow: 0 1px 2px #000;
+}
+.footer-bio {
+    text-align: center;
+    font-family:sans-serif;
+    background-color: white;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+}
+.footer-bio h2 {
+    padding: 25px;
+}
+.footer-bio a {
+    margin: 25px ;
+}
+.footer-bio a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-bio a:hover {
+    text-decoration: underline;
+}
+
+/* JADWAL */
+.table-jadwal {
+    font-family: sans-serif;
+}
+table {
+    background-color: aliceblue;
+    width: 100%;
+}
+#tableatas {
+    border-collapse: collapse;
+}
+#tableatas td {
+    padding: 15px;
+}
+
+#tableatas th {
+    padding: 15px;
+}
+#tableatas .bg {
+    background-color: rgb(24, 50, 164);
+    color: rgb(227, 242, 255);
+}
+.table-jadwal {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+/* GALERI */
+#image-img img {
+    background-color: #000;
+}
+#image-img {
+    font-family: sans-serif;
+    background-color: #fff;
+    box-shadow: 0 3px 7px #bdbbbb;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#image-img li{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 7px #bdbbbb;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.tag-2 {
+    text-align: left;
+    color: rgb(31, 50, 129);
+}
+.vid {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 70%;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+ 
+/* TANGGAPAN */
+
+.formulir-feedback {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.ukuran-pesan {
+    width: 100%;
+    height: 5rem;
+}
+#submit-x {
+    text-align: center;
+    padding: 10px;
+}
+
+/* TAG */
+.tag {
+    color: rgb(120, 108, 26);
+    font-size: xx-large;
+    padding-left: 10px;
+}
+
+/* BAG-1 */
+.bag-1 {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    padding: 0px 20px 0px 20px;
+    margin: auto;
+    border-radius: 1p5;
+}
+.bag-1 p {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.bag-1 h3 {
+    color: rgb(31, 50, 129);
+}
+
+
+/* ukuran 1024px => desktop++ */
+@media screen and (min-width: 1024px) {
+  /* masukkan tag / target selector */
+}
+
+/* ukuran 768-1023px => tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* masukkan tag / target selector */
+  body {
+    background-color: #d8e5e5;
+    margin-bottom: 0pc;
+}
+
+/* INDEX */
+.topper {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+.topper h1 {
+    color: rgb(31, 50, 129);
+}
+.topper p {
+    color: rgb(31, 50, 129);
+}
+hr {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+/* BAG-SELECTION */
+#selection li:hover{
+    color: #ffffff;
+}
+#selection {
+    font-family: sans-serif;
+}
+#selection ul{
+    list-style: none;
+    text-align: center;
+}
+#selection a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* TAB-AKTIF */
+.active {
+    background-color: rgb(32, 68, 152);
+    border-radius: 2rem;
+}
+.active b {
+    color: #fff;
+}
+
+/* BIODATA */
+#hobi-bio {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    border-radius: 1rem;
+}
+#hobi-bio h3 {
+    color: rgb(21, 6, 160);
+}
+#hobi-bio a {
+    text-decoration: none;
+    color: #000;
+}
+#hobi-bio a:hover {
+    color: rgb(0, 81, 255);
+    text-shadow: 0 1px 2px #000;
+}
+.footer-bio {
+    text-align: center;
+    font-family:sans-serif;
+    background-color: white;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+}
+.footer-bio h2 {
+    padding: 25px;
+}
+.footer-bio a {
+    margin: 25px ;
+}
+.footer-bio a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-bio a:hover {
+    text-decoration: underline;
+}
+
+/* JADWAL */
+.table-jadwal {
+    font-family: sans-serif;
+}
+table {
+    background-color: aliceblue;
+    width: 100%;
+}
+#tableatas {
+    border-collapse: collapse;
+}
+#tableatas td {
+    padding: 15px;
+}
+
+#tableatas th {
+    padding: 15px;
+}
+#tableatas .bg {
+    background-color: rgb(24, 50, 164);
+    color: rgb(227, 242, 255);
+}
+.table-jadwal {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+/* GALERI */
+#image-img li{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 7px #bdbbbb;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#image-img img {
+    background-color: #000;
+}
+#image-img {
+    font-family: sans-serif;
+    background-color: #fff;
+    box-shadow: 0 3px 7px #bdbbbb;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tag-2 {
+    text-align: left;
+    color: rgb(31, 50, 129);
+    margin: 12px auto;
+}
+.vid {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 70%;
+    padding: 1rem;
+    margin: 12px auto;
+    border-radius: 1rem;
+}
+.vid iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 315px;
+  display: block;
+  margin: 0 auto;
+}
+ 
+/* TANGGAPAN */
+
+.formulir-feedback {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.ukuran-pesan {
+    width: 100%;
+    height: 5rem;
+}
+#submit-x {
+    text-align: center;
+    padding: 10px;
+}
+
+/* TAG */
+.tag {
+    color: rgb(120, 108, 26);
+    font-size: xx-large;
+    padding-left: 10px;
+}
+
+/* BAG-1 */
+.bag-1 {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #f7e8e8;
+    width: 60%;
+    padding: 0px 20px 0px 20px;
+    margin: 20px auto;
+    border-radius: 1rem;
+}
+.bag-1 p {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.bag-1 img {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.bag-1 h3 {
+    color: rgb(31, 50, 129);
+}
+}
+
+/* ukuran max 767px => smartphone */
+@media screen and (max-width: 767px) {
+  /* masukkan tag / target selector */
+  body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+.topper {
+  text-align: center;
+  color: white;
+  padding: 10px 5px;
+  margin: 30px 60px 30px 75px;
+  border-radius: 15px 15px;
+}
+
+.topper img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.topper h1 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  color: #004aad;
+}
+
+.topper p {
+  font-size: 14px;
+  margin: 0;
+}
+/* JADWAL */
+.table-jadwal {
+    font-family: sans-serif;
+    padding: 20px;
+    overflow-x: scroll;
+}
+table {
+    background-color: rgb(213, 235, 253);
+    width: 100%;
+}
+#tableatas {
+    border-collapse: collapse;
+}
+#tableatas td {
+    padding: 15px;
+}
+
+#tableatas th {
+    padding: 15px;
+}
+#tableatas .bg {
+    background-color: rgb(24, 50, 164);
+    color: aliceblue;
+}
+.table-jadwal {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+/* Navigasi */
+#selection {
+  background-color: #0066ff;
+  margin: 10px;
+  border-radius: 15px 15px;
+}
+
+#selection ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 16px 0;
+  list-style: none;
+}
+
+#selection a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+#selection a:hover {
+  background-color: #004aad;
+}
+
+#selection a.active {
+  background-color: #002d80;
+  font-weight: bold;
+}
+
+/* Bagian Isi Umum */
+.bag-1 {
+  padding: 20px;
+  text-align: center;
+  margin: 30px 60px 30px 75px;
+}
+
+.bag-1 h3 {
+  color: #004aad;
+  font-size: 18px;
+}
+
+.fotodirisendiri {
+    width: 150px;
+}
+
+.tag {
+  color: #ff6600;
+  margin-right: 5px;
+}
+
+/* Foto Biodata */
+.fotodirisendiri {
+  border-radius: 10%;
+  margin: 10px 0;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgb(223, 209, 209);
+}
+
+/* Deskripsi Biodata */
+.deskripbio {
+  font-size: 15px;
+}
+
+ #hobi-bio {
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    margin: 20px 40px 20px 80px;
+    padding: 20px;
+    border-radius: 1rem;
+}
+  
+
+#hobi-bio ul {
+  list-style: none;
+  padding: 0;
+}
+
+#hobi-bio li {
+  margin: 10px 0;
+}
+
+#hobi-bio a {
+  text-decoration: none;
+  color: #004aad;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#hobi-bio a:hover {
+  color: #ff6600;
+}
+
+/* Galeri */
+#image-img ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+#image-img li {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  width: 90%;
+  max-width: 300px;
+  text-align: center;
+}
+
+#image-img img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Video Galeri */
+.vid iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 315px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Form Feedback */
+form {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 0px 20px 0px 20px;
+  text-align: left;
+}
+
+form label {
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+textarea.ukuran-pesan {
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.submit-btn {
+  background-color: #0066ff;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #004aad;
+}
+
+.reset-btn {
+  background-color: #ccc;
+  color: #333;
+}
+
+.reset-btn:hover {
+  background-color: #aaa;
+}
+
+.footer-bio {
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 35px 10px;
+  margin: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+
+.footer-bio h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-bio p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+}

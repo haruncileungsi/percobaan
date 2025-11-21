@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanggapan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topper">
+        <img src="../../images/logo.webp" width="90px" alt="LOGO">
+        <h1>FORMULIR UMPAN BALIK</h1>
+        <p>
+            KRITIK, SARAN & MASUKAN
+        </p>
+    </header>
+    <hr>
+    <div id="selection">
+        <ul>
+            <a  href="index.html"><li><b>Beranda</b></li></a>
+            <a href="biodata.html"><li><b>Biodata</b></li></a>
+            <a href="jadwal.html"><li><b>Jadwal</b></li></a>
+            <a href="galeri.html"><li><b>Galeri</b></li></a>
+            <a class="active" href="feedback.html"><li><b>Tanggapan balik</b></li></a>
+        </ul>
+    </div>
+    <hr>
+    <section class="bag-1">
+        <h3>
+            <span class="tag">|</span> Formulir Kontak & Saran
+        </h3>
+        <p>
+          Berikan komentar dan saran kalian disini. <br>
+          <i>Aku lebih suka hinaan yang nyata dari pada pujian yang palsu</i> 
+        </p>
+        <form action="https://httpbin.org/post" method="post">
+            <label for="innama">Nama Anda (Opsional) :</label> <br>
+            <input  type="text" name="nama" id="innama">
+
+            <br> <br>
+
+            <label for="inmail">Email anda :</label> <br>
+            <input type="email" name="mail" id="inmail">
+
+            <br> <br>
+
+            <label for="inrating">Rating web ini 1-100 :</label> <br>
+            <input type="number" name="rating" id="inrating">
+
+            <br> <br>
+
+            <h4>Penilaian Website ini  :</h4>
+            <label for="inintasyar">Bagus</label>
+            <input type="radio" name="intasyar" id="inintasyar">
+
+            <label for="inintasyar1">Lumayan</label>
+            <input type="radio" name="intasyar" id="inintasyar1">
+
+            <label for="inintasyar2">TIDAK bagus</label>
+            <input type="radio" name="intasyar" id="inintasyar2"> <br> <br>
+
+            <label for="halaman">Halaman yang paling menarik?</label>
+            <select name="pilihanditangan" id="halaman">
+                <option value="biodata">BIODATA</option>
+                <option value="galeri">GALERI</option>
+                <option value="jadwal">JADWAL</option>
+                <option value="index">BERANDA</option>
+            </select>
+
+            <br> <br>
+
+            <label for="inpesan">Tuliskan Saran, pesan & kritik :</label> <br>
+            <textarea class="ukuran-pesan" name="pesan" id="inpesan"></textarea>
+            <div id="submit-x">
+                <br>
+               <button type="reset" class="reset-btn">Atur Ulang</button>
+               <button type="submit" class="submit-btn">Kirim Feedback</button>
+            </div>
+        </form>
+    </section>
+  </body>
+</html>
